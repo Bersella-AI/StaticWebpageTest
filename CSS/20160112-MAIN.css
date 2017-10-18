@@ -1,0 +1,294 @@
+@charset "gbk";
+/* CSS Document */
+body{
+	margin:0;
+	height:100%;
+}
+.title{
+	width:960px;
+	height:183px;
+	margin:auto;
+	position:relative;
+	background:url(../IMAGES/MAIN_s1.png) no-repeat;
+}
+.title .search{
+	background:url(../IMAGES/RIGHT_MAIN_s1.png) no-repeat;
+	width:322px;
+	height:47px;
+	position:absolute;
+	left:573px;
+	top:28px;
+	float:left;
+}
+.title .search div{
+	margin:5px 0 0 20px;
+	width:280px;
+	height:26px;
+	font-size:12px;
+}
+.title .search div span{
+	float:left;
+}
+.title .search input{
+	border:1px solid #333;
+	width:210px;
+	height:22px;
+	color:#999;
+	line-height:26px;
+	float:left;
+	margin:5px 0;
+}
+.title .search form div.button{
+	width:50px;
+	height:26px;
+	margin:5px 0;
+	text-align:center;
+}
+.title .search form div.button a{
+	display:block;
+	font-weight:bold;
+	color:#FFF;
+	line-height:26px;
+	text-decoration:none;
+}
+.title .search div.button a:link, .title .search div.button a:visited {
+	background-color:#733;
+}
+.title .search div.button a:hover {
+	background-color:#F33;
+}
+.title .version{
+	position:absolute;
+	left:573px;
+	top:80px;
+	width:322px;
+	height:16px;
+	line-height:16px;
+	font-size:12px;
+}
+.title .version a,.title .version a:visited{
+	color:#333;
+	text-decoration: none;
+}
+.title .version a:hover{
+	color:#F33;
+}
+.title .menu{
+	width:720px;
+	height:33px;
+	position:absolute;
+	left:280px;
+	top:119px;
+}
+.title .menu ul{
+	list-style-type:none;
+	text-align:center;
+}
+.title .menu li{
+	float: left;
+	width:120px;
+	height:33px;
+	margin:0;
+}
+.title .menu li dl{
+	width:120px;
+	margin:0;
+	padding:0;
+}
+.title .menu li:hover dd,.title .menu li a:hover dd{
+	display: block;
+}
+.title .menu dt a{
+	line-height:33px;
+	text-align:center;
+	text-decoration: none;
+	font-weight:bold;
+	font-family:Î¢ÈíÑÅºÚ,ËÎÌå;
+	font-size:16px;
+	width:120px;
+	float:left;
+}
+.title .menu dt a:link,.title .menu dt a:visited{
+	color:#3F090B;
+}
+.title .menu dt a:hover{
+	background:url(../IMAGES/MENU_r1_c1_s1.png) no-repeat;
+	color:#FFF;
+}
+.title .menu li dd{
+	margin:0;
+	padding:0;
+	display:none;
+	background: #CCC;
+}
+.title .menu li:hover dd,.title .menu li a:hover dd{
+	display: block;
+}
+.title .menu li dd a{
+	line-height:33px;
+	width:120px;
+	height:33px;
+	text-decoration:none;
+	font-family: ËÎÌå;
+	font-size: 14px;
+	text-align: center;
+	display:inline-block;
+}
+.title .menu li dd a:link,.title .menu li dd a:visited{
+	background:#CCC;
+	color:black;
+}
+.title .menu li dd a:hover{
+	color:white;
+	background:#F88;
+}
+.title .menu li dl dd.last{
+	border-bottom:1px solid red;
+}
+
+.main{
+	width:960px;
+	margin:10px auto;
+	min-height:755px;
+	height:auto;
+	overflow:auto;
+}
+.main .top{
+	background:url(../IMAGES/CENTER_r1_c1_s1.png) no-repeat;
+	height:20px;
+}
+.main .center{
+	background:url(../IMAGES/CENTER_r2_c1_s1.png) repeat-y;
+	min-height:715px;
+	height:20em;
+	overflow-y:auto;
+}
+.main .bottom{
+	background:url(../IMAGES/CENTER_r4_c1_s1.png) bottom;
+	height:20px;
+}
+.main .left{
+	width:174px;
+	float:left;
+	margin:0 0 0 20px;
+	height:auto;
+}
+.main .left dl{
+	width:170px;
+	font-family:Î¢ÈíÑÅºÚ,ºÚÌå;
+	list-style-type:none;
+	margin:0px;
+	padding:0px;
+}
+.main .left dl dt{
+	padding:18px 0 2px 0;
+	margin:0;
+	text-align:center;
+	height:30px;
+	font-size:18px;
+	border-bottom:1px solid red;
+}
+.main .left dt a,.main .left dt a:visited{
+	display:block;
+	text-decoration: none;
+	line-height:30px;
+	color:white;
+  background-color:#622;
+}
+.main .left dt a:hover{
+	background-color:#F33;
+}
+.main .left dd{
+	margin:0 0 0 10px;
+	padding:0;
+	text-align:right;
+	font-size:16px;
+	border-bottom:1px solid #BE2D2F;
+}
+/* --- 20160104 TO BE CONTINUED --- */
+.main .left dd a{
+	display:block;
+	text-decoration:none;
+	height:1em;
+	padding:5px 5px 5px 0.5em;
+	border-left:12px solid #F99;
+	border-right:1px solid #F99;
+}
+.main .left dd a:link, .main .left dd a:visited{
+	background-color:#EEE;
+	color:black;
+}
+.main .left dd a:hover{
+	background-color:#CCC;
+	color:red;
+	border-left:12px solid #F33;
+	font-weight:bold;
+}
+.main .right{
+	width:710px;
+	margin:0;
+	padding:10px 28px;
+	background:url(../IMAGES/CENTER_r6_c2.png) repeat-y;
+	min-height:675px;
+	height:10em;
+	float:left;
+	overflow-y:auto;
+	zoom:1;
+}
+.main .right .top{
+	background:url(../IMAGES/RIGHT_TITLE_r1_c1_s1.png) repeat-x;
+	height:48px;
+	padding:0 15px;
+}
+.main .right .top .title{
+	background:url(../IMAGES/RIGHT_TITLE_r1_c3_s1.png) no-repeat;
+	height:48px; width:171px;
+	padding-left:40px;
+	float:left;
+}
+.main .right .top .title p{
+	color:#FFF;
+	font-size:16px;
+	font-weight:bold;
+	font-family:ºÚÌå;
+	padding-right:15px;
+	margin:10px 0;
+}
+.main .right span{
+	min-height:627px;
+	height:8em;
+	overflow-y:auto;
+}
+.main .right span p{
+	font-family:ËÎÌå;
+	padding-top:15px;
+	line-height:24px;
+	font-size:14px;
+}
+.main .right span p.pic{
+	text-align:center;
+	font-family:ºÚÌå;
+}
+/* --- 20160106 Should be finished --- */
+.main .right marquee{
+	font-family:ºÚÌå;
+	font-weight:bold;
+	font-size:24px;
+	border:3px solid red;
+	color:red;
+	width:100%;
+}
+
+.last{
+	background:url(../IMAGES/MAIN_r8_c1_s1.png) repeat-x;
+	width:960px;
+	height:150px;
+	margin:5px auto;
+}
+.last .about{
+	padding:28px 0 0 420px;
+	height:56px;
+}
+.last .about p{
+	color:#505259;
+}
